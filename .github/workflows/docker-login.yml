@@ -3,7 +3,7 @@
 name: Docker Login
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   login:
