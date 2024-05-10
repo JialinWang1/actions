@@ -3,9 +3,7 @@
 name: Docker Login
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   login:
