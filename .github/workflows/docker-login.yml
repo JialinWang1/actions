@@ -4,6 +4,13 @@ name: Docker Login
 
 on:
   workflow_call:
+   inputs:
+      username:
+        required: true
+        type: string
+      token:
+        required: true
+        type: string
 
 jobs:
   login:
